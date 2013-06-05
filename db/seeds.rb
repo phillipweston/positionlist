@@ -1,0 +1,6 @@
+Item.create(:name => "Walk the dog", position: 1)
+Item.create(:name => "Shave the dog", position: 2)
+Item.create(:name => "Feed the dog", position: 3)
+Item.create(:name => "Migrate the dog", position: 4)
+Item.create(:name => "Create the dog", position: 5)
+Item.create(:name => "Tickle the dog", position: 6)

@@ -1,0 +1,9 @@
+<form action="/sort" method="post">
+  <ul id="sortable">
+
+    <% @list.each_with_index do |item, index| %>
+      <li class="ui-state-default"><input type="hidden" name="<%= item.name %>" value="<%= item.id %>"><%= item.name %></li>
+    <% end %>
+
+  </ul>
+</form>
